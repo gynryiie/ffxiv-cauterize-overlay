@@ -132,7 +132,7 @@ const setup = async () => {
 
 if (TestMode) {
     console.log("Test")
-    const rx = AddedNewCombatantDragons["Japanese"];
+    const rx = AddedNewCombatantDragons["English"];
     TestLogs.forEach(log => check(rx, log, true));
 }
 
