@@ -115,7 +115,7 @@ const TestLogs = [
 ]
 
 const AddedNewCombatantDragons = {
-    English: null,
+    English: /^03\|\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{7}(\+|-)\d{2}:\d{2}\|[0-9a-fA-F]{8}\|(Tail Of Darkness|Thunderwing|Fang Of Light|Firehorn|Iceclaw)\|0\|46\|0\|0\|\|\d{4}\|\d{4}\|5725000\|5725000\|10000\|10000\|0\|0\|(?<pos>.+)\|\|[0-9a-fA-F]{32}$/,
     French: null,
     German: null,
     Japanese: /^03\|\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{7}(\+|-)\d{2}:\d{2}\|[0-9a-fA-F]{8}\|(ダークテイル|サンダーウィング|ライトファング|ファイアホーン|アイスクロウ)\|0\|46\|0\|0\|\|\d{4}\|\d{4}\|5725000\|5725000\|10000\|10000\|0\|0\|(?<pos>.+)\|\|[0-9a-fA-F]{32}$/,
