@@ -14,7 +14,7 @@ const check = (rx, log, isTest = false) => {
         .map(ret => {
             const pos = ret.groups.pos.split("|");
             const px = parseFloat(pos[0]);
-            const py = parseFloat(pos[1]);//-1 * parseFloat(pos[1]);
+            const py = -1 * parseFloat(pos[1]);
             const rad = Math.atan2(py, px);
             const hash = (rad * (360 / (2 * Math.PI))).toFixed(0);
             return {
