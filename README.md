@@ -1,5 +1,5 @@
 # ffxiv-cauterize-overlay
-An overlay for "cauterize" in "The Unending Coil of Bahamut (Ultimate)".  
+An overlay for "Divebomb/Cauterize" mechanic in "The Unending Coil of Bahamut (Ultimate)".  
 Currently, only English and Japanese are supported.
 
 ![alt text](https://cdn.discordapp.com/attachments/796991884362645505/832624539694268476/mspaint_7EEpQzJyjS.png)
